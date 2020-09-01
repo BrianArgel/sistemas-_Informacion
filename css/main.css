@@ -1,0 +1,185 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+body{
+background: url('../images/back.png') no-repeat center center fixed;
+background-size: cover;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+nav{
+
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    background: #2bcbbbfb;
+    top: 0;
+    box-sizing: border-box;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    transition: .4s all;
+    display: block;
+    color: white;
+}
+nav ul li a:hover{
+    background: #4b7bec;
+}
+.boton{
+    background: #3867d6;
+}
+.titulo h2{
+    margin-right: 10px;
+}
+.titulo i{
+    transform: translateY(5px);
+}
+.titulo{
+    display: flex;
+   
+   
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+    transition: .3s all;
+}
+.titulo:hover{
+    transform: scale(1.01);
+}
+.principal{
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
+    padding: 50px;
+    
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    transition: .4s;
+}
+.principal .imagen{
+    background: #d1d8e0;
+    padding: 50px;
+}
+.principal .parrafo{
+    background: #0fb9b1;
+    padding: 75px;
+    color: white;
+}
+i{
+    text-align: center;
+    font-size: 50px;
+   
+}
+i:hover{
+    color: #fc5c64e1;
+}
+.segundaria{
+padding: 5px;
+  
+   margin:0 auto;
+    width: 90%;
+    margin-bottom: 10%;
+    display: flex;
+
+}
+ h3{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.active{
+    background: #4b6584;
+}
+.segundaria .conte{
+    cursor: pointer;
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 33%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+    color: white;
+    height: 400px;
+    transition: .4s all;
+}
+.segundaria .conte:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 5);
+}
+
+.banner{
+    transform: translateY(90px);
+    z-index: -100;
+    width: 100%;
+    overflow: hidden;
+}
+.conte:hover{
+    transform: scale(1.1);
+}
+.acerca{
+    padding: 5px;
+    border-radius: 20px;
+    background: #4b6584;
+}
+.acerca:hover{
+    background: #4b658481;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    height: 100px;
+    background-image: url('../images/foote.jpg');
+    position: relative;
+}
+footer:after{
+    position: absolute;
+    content: '';
+    background: #2bcbbb38;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+footer .redes{
+    cursor: pointer;
+    transition: .3s all;
+
+}
+footer .redes:hover{
+    transform: scale(1.03);
+}
